@@ -1,14 +1,5 @@
 <html>
     <head>
-	      <script>
-	      window.oncontextmenu=function ()
-		  {
-		  console.log("Right click Disabled");
-		  return false;
-		  }
-		 
-	</script>	
-	    
 	<style>
 	#main
 {
@@ -30,10 +21,33 @@
   height:relative;
   position:relative;
    box-shadow: 0px 0px 2px 2px BROWN;
-  background-color:YELLOW;
+  background-color:cyan;
    border-top-left-radius:10px;
 	border-top-right-radius:10px;	
   }
+  
+  body {
+  background-color:;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+  
   
   #banner
 {
@@ -121,6 +135,26 @@
   box-shadow: 0px 0px 2px 2px BROWN;
   position:relative;
 }
+
+.glow2 {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+  
+
+
 #district
 {
   display: flex;
@@ -130,7 +164,7 @@
   align-items:center;
   justify-content:center;
   position:relative;
-  background-color:LavenderBlush;
+  background-color:cyan;
   box-shadow: 0px 0px 2px 2px bROWN;
    border-top-left-radius:40px;
 	border-top-right-radius:40px;
@@ -173,6 +207,16 @@
 	position:relative;
 	border-top-left-radius:50px;
 	border-top-right-radius:50px;
+}
+
+#reduce1
+{
+	width:relative;
+	height:RELATIVE;
+	
+	box-shadow: 0px 0px 2px 2px BROWN;
+	position:relative;
+	
 }
  
 
@@ -261,15 +305,6 @@
           background-position: 500%;
         }
       }
-
- 
-
-
-
-
-
-
-
 #designed
 {
 	width:RELATIVE;
@@ -277,54 +312,67 @@
 	background-color:blue;
 	position:relative;
 	box-shadow: 0px 0px 2px 2px BROWN
-	
 }
 
-</style>
+body {
+  background-color:;
+  font-family: cursive;
+}
+.glow1 {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
   
-  <title>COVID19 BIHAR HELPLINE</title>
-	   <body BGCOLOR="">
-	   <div id="header">
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+     </style>
+  </head>
+         <title>COVID19 BIHAR HELPLINE</title>
+	     <body BGCOLOR="">
+	        <div id="header">
+		        <CENTER><B><FONT FACE="ARIAL" size="7" color=""><h1 class="glow">COVID 19 BIHAR HELPINE</h1></font></CENTER></B>
+		    </DIV>
 		
-		<CENTER><B><FONT FACE="ARIAL" size="7" color="">COVID 19 BIHAR HELPINE</font></CENTER></B>
-		</DIV>
+		    <div id="banner">
+		        <img src="covid-19-banner.jpg" height="100%" width="100%">
+		    </div>
+		    <div id="image">
+		      <center>
+		    <div id="maindiv1">
+		    <div id="maindiv"></div>
+		    </DIV>
+		    </div>
 		
-		<div id="banner">
-		<img src="covid-19-banner.jpg" height="100%" width="100%">
-		</div>
-	
-		</div>
-		<div id="image">
-		<center>
-		<div id="maindiv1">
-		<div id="maindiv"></div>
+		 <h1 class="glow2">
+	             <marquee  bgcolor="cyan">A SMALL INITIATIVE BY AMAN KUMAR.THIS WEBSITE CONTAIN INFORMATION OF 38 DISTRICTS OF BIHAR SUCH AS DOCTOR WITH THEIR NAME AND CONTACT NUMBER,
+	         HOSPITAL LOCATION, OXYGEN SUPPLIERS AND MANY MORE.</marquee></br></h1>
+		
+	        <div id="covid">
+	            <FONT COLOR="RED"><center><U><H2>COVID-19 BEDS</H2></CENTER></U></BR></div>
+		    <div id="covidbed">
+		         <MARQUEE behavior="alternate"></br> Source: Data reported by Nodal Officers of each Dedicated COVID-19 Hospital.</MARQUEE></FONT></br>
+	      <center>
+		<p> Total= 29178</p>              <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></Br>
+		<p>Occupied = 6723</p>            <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></BR>
+		<p>Vacant = 22455</p>             <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></BR>
+		<p>Total ICU Beds = 2320</p>      <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></BR>
+		<p>Occupied ICU Beds = 1650</p>   <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></BR>
+		<p>Vacant ICU Beds = 670</p>      <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></BR></BR></p>
+	</center>
 		</DIV>
-		</div>
 		</br>
-	<marquee behaviour="alternate"><FONT SIZE="5" COLOR="red">A SMALL INITIATIVE BY AMAN KUMAR.THIS WEBSITE CONTAIN INFORMATION OF 38 DISTRICTS OF BIHAR SUCH AS DOCTOR WITH THEIR 
-		NAME AND CONTACT NUMBER, HOSPITAL LOCATION, OXYGEN SUPPLIERS AND MANY MORE.</FONT> </marquee></br></br>
-		
-		<div id="covid">
-		<FONT COLOR="RED"><center><U><H2>COVID-19 BEDS</H2></CENTER></U></BR></div>
-		<div id="covidbed">
-		<MARQUEE behavior="ALTERNATE"></br> Source: Data reported by Nodal Officers of each Dedicated COVID-19 Hospital.</MARQUEE></FONT></br>
-		<UL TYPE=SQUARE>
-		<LI> Total= 29178 <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></LI></BR>
-		<LI> Occupied = 6723 <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></LI></BR>
-		<LI> Vacant = 22455 <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></LI></BR>
-		<LI> Total ICU Beds = 2320 <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></LI></BR>
-		<LI> Occupied ICU Beds = 1650<A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></LI></BR>
-		<LI> Vacant ICU Beds = 670 <A HREF="http://covid19health.bihar.gov.in/DailyDashboard/BedsOccupied">Click More Details</A></LI></BR></BR>
-		</DIV>
-		</br>
-		<div id="district">
-		<font color="red"><CENTER><H1><u>DISTRICTS WISE COVID HELPLINE INFORMATION<H1></u></CENTER> </font>
-		<FONT SIZE="">
-		</div>
-		<FONT SIZE="">
-		</div>
-		
-		
+	<div id="district">
+	 <h1 class="glow2">
+		<font color="red"><CENTER><u>DISTRICTS WISE COVID HELPLINE INFORMATION</H1></u></CENTER> </font>
+	</div>	
 <STYLE>
     TABLE, TH , TD {
 	   BORDER: 2PX SOLID RED;
@@ -341,7 +389,7 @@
  <table  WIDTH="96%" bgcolor="azure">
  <CENTER>
     <thead>
-      <tr bgcolor="cyan">
+      <tr bgcolor="blue">
       	<th >Serial No.</th>
         <th class="text-center">District</th>
         <th class="text-center">Helpline Number</th>
@@ -351,73 +399,73 @@
     <tbody >
       <tr bgcolor="powderblue"><CENTER>
       	<td></CENTER>1</td>
-        <td class="text-center"><a href="araria.html">Araria</a></td>
+        <td class="text-center"><a href="ARARIA.HTML">Araria</a></td>
         <td class="text-center"><a href="tel:18003456617">1800 345 6617</a></td>
         <td><a href="https://araria.nic.in/">https://araria.nic.in/</a></td>
       </tr>      
       <tr bgcolor="mediumspringgreen">
       	<td class="text-center">2</td>
-        <td class="text-center"><a href="arwal.html">Arwal</a></td>
+        <td class="text-center"><a href="ARWAL.HTML">Arwal</a></td>
         <td class="text-center"><a href="tel:18003456612">1800 345 6612</a></td>
         <td><a href="https://arwal.nic.in/ ">https://arwal.nic.in/</td></a>
 
       </tr>
       <tr bgcolor="pink">
       	<td class="text-center">3</td>
-        <td class="text-center"><a href="Aurangabad.html">Aurangabad</a></td>
+        <td class="text-center"><a href="AURANGABAD.HTML">Aurangabad</a></td>
         <td class="text-center"><a href="tel:18003456612">1800 345 6612</a></td>
         <td><a href="https://aurangabad.bih.nic.in/ ">https://aurangabad.bih.nic.in/</a></td>
       </tr>
       <tr  bgcolor="powderblue">
       	<td class="text-center">4</td>
-        <td class="text-center"><a href="Banka.html">Banka</a></td>
+        <td class="text-center"><a href="BANKA.HTML">Banka</a></td>
         <td class="text-center"><a href="tel:18003456605">1800 345 6605</a></td>
         <td><a href="https://banka.nic.in/ ">https://banka.nic.in/</a></td>
 
       </tr>
       <tr bgcolor="mediumspringgreen">
       	<td class="text-center">5</td>
-        <td class="text-center"><a href="Begusarai.html">Begusarai</a></td>
+        <td class="text-center"><a href="BEGUSARAI.HTML">Begusarai</a></td>
         <td class="text-center"><a href="tel:18003456604">1800 345 6604</a></td>
         <td><a href=" https://begusarai.nic.in/">https://begusarai.nic.in/</a></td>
 
       </tr>
       <tr class="active">
       	<td class="text-center">6</td>
-        <td class="text-center"><a href="bhagalpur.html">Bhagalpur</a></td>
+        <td class="text-center"><a href="BHAGALPUR.HTML">Bhagalpur</a></td>
         <td class="text-center"><a href="tel:18003456606">1800 345 6606</a></td>
         <td><a href=" https://bhagalpur.nic.in/">https://bhagalpur.nic.in/</a></td>
 
       </tr>
       <tr bgcolor="powderblue">
       	<td>7</td>
-        <td class="text-center"><a href="Bhojpur.html">Bhojpur<a></td>
+        <td class="text-center"><a href="BHOJPUR.HTML">Bhojpur<a></td>
           <td class="text-center"><a href="tel:18003456601">1800 345 6601</a></td>
          <td><a href=" https://bhojpur.nic.in/">https://bhojpur.nic.in/</a></td>
 
       </tr>      
       <tr bgcolor="mediumspringgreen">
       	<td class="text-center">8</td>
-        <td class="text-center"><a href="buxar.html">Buxar</a></td>
+        <td class="text-center"><a href="BUXAR.HTML">Buxar</a></td>
         <td class="text-center"><a href="tel:18003456602">1800 345 6602</a></td>
         <td><a href=" https://buxar.nic.in/">https://buxar.nic.in/</a></td>
 
       </tr>
       <tr class="danger">
       	<td class="text-center">9</td>
-        <td class="text-center"><a href="darbhanga.html">Darbhanga</a></td>
+        <td class="text-center"><a href="DARBHANGA.HTML">Darbhanga</a></td>
         <td class="text-center"><a href="tel:18003456610">1800 345 6610</a></td>
         <td><a href="https://darbhanga.nic.in/ ">https://darbhanga.nic.in/</td></a>
       </tr>
       <tr  bgcolor="powderblue">
       	<td >10</td>
-        <td class="text-center"><a href="eastchamparan.html">East-Champaran</a></td>
+        <td class="text-center"><a href="EAST-CHAMPARAN.HTML">East-Champaran</a></td>
         <td class="text-center"><a href="tel:18003456624">1800 345 6624</a></td>
         <td><a href="https://eastchamparan.nic.in/ ">https://eastchamparan.nic.in/</a></td>
       </tr>
       <tr bgcolor="mediumspringgreen">
       	<td class="text-center">11</td>
-        <td class="text-center"><a href="gaya.html">Gaya</a></td>
+        <td class="text-center"><a href="GAYA.HTML">Gaya</a></td>
         <td class="text-center"><a href="tel:18003456613">1800 345 6613</a></td>
         <td><a href="https://gaya.nic.in/ ">https://gaya.nic.in/</a></td>
 
@@ -605,9 +653,11 @@
     </tbody>
   </table></br></div>
 		<div id="reduce">
-	<font color="red">
-         <H3>REDUCE YOUR RISK OF COVID-19 (Coronavirus)</H3></font></CENTER>
-     <OL TYPE=><font color="lightred">
+	     <font color="red">
+         <H3>REDUCE YOUR RISK OF COVID-19 (Coronavirus)</H3></CENTER>
+		  </div>
+		 <OL TYPE=>
+     
          <LI>CLEAN YOUR HANDS OFTEN!.</LI></br>
          <LI>COUGH OR SNEEZE IN YOUR BENT ELBOW NOT YOUR HANDS!.</LI></br>
          <LI>AVOID TOUCHING YOUR EYES, NOSE AND MOUTH!.</LI></br>		 
@@ -615,8 +665,8 @@
 		 <LI>AVOID CLOSE CONTACT WITH SOMEONE WHO IS SICK!.</LI></br>
 		 <LI>CLEAN AND DISINFECT FREQUENTLY TOUCHED</LI></br>
 		 <LI>ISOLATE YOURSELF FROM OTHERS IF FELLING UNWELL, AND SEEK CARE IF NEEDED!.</br></LI></font>
-		 </div>
-	</OL>
+		
+	</ol>
 	</UL>
 	<font color="brown">
 	<ul type=disc><LI>UNDERSTAND COVID(Coronavirus)</LI></UL></FONT>
@@ -642,14 +692,14 @@
 		       <a HREF ="https://www.who.int/">World Health Organisation</A></br></br>
 		       <A HREF="https://www.aajtak.in/">Aajtak News</A></center></br>
 		    </DIV>
-</br>
+	</br>
 			 
 	<DIV ID="IMPORTANTLINKS"></br><center>
 	<font color="red">
 		        <h3>LOGIN LINKS</h3></font>
 		        Admin Login</BR></br></center>
 	</DIV>
-</br>
+	</br>
 	<DIV ID="LOGINLINKS"></br><center>
 	<font color="red">
 		        <h3>CONTACT US</h3></font>
@@ -661,15 +711,12 @@
 	</div>
 
 	
-	
-	
-	
-	<div>
-		  
-		      <CENTER><p>DESIGNED AND DEVELOPED BY:- AMAN KUMAR , RN college BCA </BR>
+	<div id="designed">
+		  <h1 class="glow1">
+		      <CENTER>DESIGNED AND DEVELOPED BY:- AMAN KUMAR , RN college BCA </BR>
 			  Lalganj Vaishali Bihar India</br>
 			  Contact no :- 7979705912</br>
-			  Email Id :- amankr97531@gmail</p></br>
+			  Email Id :- amankr97531@gmail</br></h1>
     </div>
 	
 	</body>

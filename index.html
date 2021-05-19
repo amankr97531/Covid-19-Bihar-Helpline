@@ -11,6 +11,19 @@
 	 position:relative;
 	
 }
+#loading
+{
+    position:fixed;
+    width:100%;
+	height:100%;
+	background: #fff
+	url('https://www.continulus.com/images/loader_cms.gif')
+
+	no-repeat center;
+		z-index:9;
+	}
+
+
 #header
 {
 
@@ -336,7 +349,11 @@ body {
      </style>
   </head>
          <title>COVID19 BIHAR HELPLINE</title>
-	     <body BGCOLOR="">
+	     <body onload="myFunction()">
+		 
+		 <div id="loading">
+		 
+		 </div>
 	        <div id="header">
 		        <CENTER><B><FONT FACE="ARIAL" size="7" color=""><h1 class="glow">COVID 19 BIHAR HELPINE</h1></font></CENTER></B>
 		    </DIV>
@@ -718,6 +735,11 @@ body {
 			  Contact no :- 7979705912</br>
 Email Id :- amankr97531@gmail</P></br></h1>
     </div>
-	
+	<script>
+	    var preloader = document.getElementById('loading');
+		function myFunction(){
+		    preloader.style.display = 'none';
+			}
+	</script>
 	</body>
 	</html>
